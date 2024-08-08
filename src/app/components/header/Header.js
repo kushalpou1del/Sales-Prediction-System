@@ -7,7 +7,7 @@ import Link from 'next/link'
 export default function Header() {
   return (
     // Adjusted the color of the navbar background
-    <div className='  bg-[#1C2C4C] justify-between  w-[94rem]  items-center'>
+    <div className='  bg-[#1C2C4C] justify-between items-center'>
       <div className='container w-5/6 flex justify-between  items-center m-auto text-white '>
 
       <Link href={"/"}> <img src="images/logo.png" alt="" height="100" width="100"  /></Link> 
