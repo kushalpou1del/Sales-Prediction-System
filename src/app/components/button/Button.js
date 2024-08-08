@@ -7,7 +7,6 @@ export default function Button({ padT, padL, textSize, bgColor, color, title, ev
     paddingBottom: padT,
     paddingRight: padL,
     backgroundColor: bgColor,
-    borderRadius: borderRadius,
     color: color,
     fontSize: textSize,
     borderRadius: borderRadius,
