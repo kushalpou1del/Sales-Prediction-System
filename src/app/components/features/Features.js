@@ -1,8 +1,8 @@
 import React from 'react'
-import Card from '../components/card/Card'
+import Card from '../card/Card'
 import Image from 'next/image'
 
-export default function Sample() {
+export default function Features() {
     return (
 
 

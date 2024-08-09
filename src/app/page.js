@@ -1,14 +1,15 @@
- import Button from "./components/button/Button";
-import Header from "./components/header/Header";
+ 
  import Hero from "./components/hero/Hero";
-import Login from "./auth/login/Login";
+import Card from "./components/card/Card";
+import Features from "./components/features/Features";
+ import Navbar from "./components/navbar/Navbar";
 export default function Home() {
   return (
     <div>
      
-    <Header/>
+    <Navbar/>
     <Hero/>
-    <Login/>
+    <Features/>
      </div>
   );
 }
